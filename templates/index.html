@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponderada</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.8.1" defer></script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="/" class="text-gray-800 text-xl font-bold">Ponderada</a>
+            <div class="flex items-center">
+                <a href="/controls" class="text-gray-800 text-sm mx-2 hover:text-indigo-600">Dashboard</a>
+                <a href="/log" class="text-gray-800 text-sm mx-2 hover:text-indigo-600">Orders</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 mt-10">
+        <section class="mb-10">
+            <h1 class="text-3xl text-gray-800 font-bold mb-2">Controle e Logs do Robô</h1>
+            <p class="text-gray-600">Uma aplicação web desenvolvida com Flask e TinyDB para controlar um robô e registrar seus logs de atividades.</p>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl text-gray-800 font-bold mb-2">Componentes da Aplicação</h2>
+                <p class="text-gray-600">Esta aplicação utiliza <strong>Flask</strong> para a criação da interface web e <strong>TinyDB</strong> para armazenamento de logs.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl text-gray-800 font-bold mb-2">Funcionalidades Principais</h2>
+                <p class="text-gray-600">Inclui controle do robô via interface web e visualização de logs para monitoramento de atividades.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow">
+                <h2 class="text-xl text-gray-800 font-bold mb-2">Vantagens</h2>
+                <p class="text-gray-600">Oferece simplicidade, leveza, flexibilidade, e independência de plataforma.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white shadow mt-10">
+        <div class="container mx-auto px-6 py-4">
+            <p class="text-gray-600 text-sm text-center">© 2024 Ponderada. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
